@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Servicios — Itzell Vargas</title>
+<meta name="description" content="Conoce los servicios de manicura, pedicura y pestañas de Itzell Vargas, además de sus cursos en línea.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rouge+Script&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">Itzell Vargas<span class="brand-tagline">UÑAS &amp; PESTAÑAS</span></a>
+
+    <nav class="main-nav" id="main-nav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="index.html#nosotros">Nosotros</a></li>
+        <li><a href="servicios.html" aria-current="page">Servicios</a></li>
+        <li><a href="index.html#cursos">Cursos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="#cursos" class="btn btn-cyan">Ver cursos</a>
+        <a href="contacto.html" class="btn btn-primary">Reservar cita</a>
+      </div>
+    </nav>
+
+    <div class="social-strip">
+      <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.85.07 3.25.15 4.77 1.7 4.92 4.92.06 1.25.07 1.62.07 4.81s-.01 3.56-.07 4.81c-.15 3.2-1.66 4.77-4.92 4.92-1.25.06-1.62.07-4.85.07s-3.6-.01-4.85-.07c-3.26-.15-4.77-1.72-4.92-4.92-.06-1.25-.07-1.62-.07-4.81s.01-3.56.07-4.81c.15-3.22 1.66-4.77 4.92-4.92C8.4 2.2 8.8 2.2 12 2.2zM12 0C8.74 0 8.33.01 7.05.07c-4.35.2-6.78 2.62-6.98 6.98C.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.2 4.35 2.62 6.78 6.98 6.98C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c4.35-.2 6.79-2.62 6.98-6.98.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.19-4.35-2.62-6.78-6.98-6.98C15.67.01 15.26 0 12 0zm0 5.84A6.16 6.16 0 1 0 12 18.16 6.16 6.16 0 0 0 12 5.84zm0 10.16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-10.4a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"/></svg></a>
+      <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M12.02 2C6.5 2 2 6.5 2 12.02c0 1.87.5 3.63 1.44 5.15L2 22l4.96-1.4a9.96 9.96 0 0 0 5.06 1.38h.01c5.52 0 10.02-4.5 10.02-10.02C22.04 6.5 17.54 2 12.02 2zm0 18.14h-.01a8.1 8.1 0 0 1-4.13-1.13l-.3-.18-3.09.87.83-3.02-.19-.31a8.12 8.12 0 0 1-1.24-4.35c0-4.49 3.66-8.15 8.15-8.15 2.18 0 4.22.85 5.76 2.39a8.09 8.09 0 0 1 2.38 5.77c0 4.49-3.66 8.11-8.16 8.11z"/></svg></a>
+    </div>
+
+    <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ INTRO ============ -->
+  <section class="container" style="padding-bottom:0;">
+    <div class="section-head">
+      <span class="eyebrow-label">Nuestros servicios</span>
+      <h1>Citas pensadas para cada tipo de cuidado, con la técnica de Itzell.</h1>
+      <p>Elige una categoría para ver los servicios disponibles. Ninguno incluye precio en esta página: cada trabajo se cotiza según el diseño y el estado de tu uña o pestaña — escríbenos y te damos el detalle exacto.</p>
+    </div>
+  </section>
+
+  <!-- ============ CITAS / TIPOS DE SERVICIOS ============ -->
+  <section id="citas">
+    <div class="container">
+      <div class="services-tabs" role="tablist">
+        <button class="services-tab is-active" data-target="grupo-unas">Uñas</button>
+        <button class="services-tab" data-target="grupo-pestanas">Pestañas</button>
+        <button class="services-tab" data-target="grupo-extras">Extras &amp; mantenimiento</button>
+      </div>
+
+      <div class="grid-3 service-group is-active" id="grupo-unas">
+        <article class="service-card">
+          <div class="service-card-media" style="background:var(--cute-mint);">
+            <svg width="56" height="56" viewBox="0 0 24 24"><path d="M12 2a5 5 0 0 1 5 5v5a5 5 0 0 1-10 0V7a5 5 0 0 1 5-5z" fill="#7C5337"/></svg>
+          </div>
+          <div class="service-card-body">
+            <h3>Manicura clásica</h3>
+            <p>Limado, cutícula, esmaltado tradicional o semipermanente con acabado uniforme.</p>
+            <a href="contacto.html" class="btn btn-secondary">Más información</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-card-media" style="background:var(--astra);">
+            <svg width="56" height="56" viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" fill="none" stroke="#7C5337" stroke-width="1.5"/></svg>
+          </div>
+          <div class="service-card-body">
+            <h3>Uñas acrílicas / gel</h3>
+            <p>Extensión y diseño personalizado, desde looks naturales hasta acabados llamativos.</p>
+            <a href="contacto.html" class="btn btn-secondary">Más información</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-card-media" style="background:var(--cute-mint);">
+            <svg width="56" height="56" viewBox="0 0 24 24"><path d="M12 21c-4.97-4.03-9-7.3-9-11.2C3 6.6 5.5 4 8.5 4c1.7 0 3.3.8 3.5 2.2C12.2 4.8 13.8 4 15.5 4 18.5 4 21 6.6 21 9.8c0 3.9-4.03 7.17-9 11.2z" fill="#7C5337"/></svg>
+          </div>
+          <div class="service-card-body">
+            <h3>Pedicura spa</h3>
+            <p>Exfoliación, hidratación profunda y esmaltado para pies descansados.</p>
+            <a href="contacto.html" class="btn btn-secondary">Más información</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="grid-3 service-group" id="grupo-pestanas">
+        <article class="service-card">
+          <div class="service-card-media" style="background:var(--astra);">
+            <svg width="56" height="56" viewBox="0 0 24 24"><path d="M2 12c4-6 16-6 20 0-4 6-16 6-20 0z" fill="none" stroke="#7C5337" stroke-width="1.5"/><circle cx="12" cy="12" r="3" fill="#7C5337"/></svg>
+          </div>
+          <div class="service-card-body">
+            <h3>Extensión clásica</h3>
+            <p>Una fibra por pestaña natural para un efecto delineado y sutil.</p>
+            <a href="contacto.html" class="btn btn-secondary">Más información</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-card-media" style="background:var(--cute-mint);">
+            <svg width="56" height="56" viewBox="0 0 24 24"><path d="M2 12c4-6 16-6 20 0-4 6-16 6-20 0z" fill="none" stroke="#7C5337" stroke-width="1.5"/><circle cx="12" cy="12" r="3" fill="#7C5337"/></svg>
+          </div>
+          <div class="service-card-body">
+            <h3>Volumen ruso</h3>
+            <p>Varias fibras ultra finas por pestaña para un efecto denso y esponjado.</p>
+            <a href="contacto.html" class="btn btn-secondary">Más información</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-card-media" style="background:var(--astra);">
+            <svg width="56" height="56" viewBox="0 0 24 24"><path d="M4 18c2-8 6-12 8-12s6 4 8 12" fill="none" stroke="#7C5337" stroke-width="1.5"/></svg>
+          </div>
+          <div class="service-card-body">
+            <h3>Lifting de pestañas</h3>
+            <p>Curvatura y definición de tu pestaña natural, sin extensiones.</p>
+            <a href="contacto.html" class="btn btn-secondary">Más información</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="grid-3 service-group" id="grupo-extras">
+        <article class="service-card">
+          <div class="service-card-media" style="background:var(--cute-mint);">
+            <svg width="56" height="56" viewBox="0 0 24 24"><path d="M12 2v20M2 12h20" stroke="#7C5337" stroke-width="1.5"/></svg>
+          </div>
+          <div class="service-card-body">
+            <h3>Retoque / relleno</h3>
+            <p>Mantenimiento a mitad de ciclo para que tu diseño se vea recién hecho.</p>
+            <a href="contacto.html" class="btn btn-secondary">Más información</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-card-media" style="background:var(--astra);">
+            <svg width="56" height="56" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="16" rx="2" fill="none" stroke="#7C5337" stroke-width="1.5"/></svg>
+          </div>
+          <div class="service-card-body">
+            <h3>Kit de cuidado en casa</h3>
+            <p>Aceites y productos recomendados para alargar la duración de tu servicio.</p>
+            <a href="contacto.html" class="btn btn-secondary">Más información</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-card-media" style="background:var(--cute-mint);">
+            <svg width="56" height="56" viewBox="0 0 24 24"><path d="M12 3l2.5 6.5H21l-5.2 4 2 6.5L12 16l-5.8 4 2-6.5L3 9.5h6.5z" fill="#7C5337"/></svg>
+          </div>
+          <div class="service-card-body">
+            <h3>Diseño para evento</h3>
+            <p>Propuesta a medida para bodas, XV años o sesiones fotográficas.</p>
+            <a href="contacto.html" class="btn btn-secondary">Más información</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CURSOS (COURSERA / UDEMY) ============ -->
+  <section class="section-mint" id="cursos">
+    <div class="container">
+      <div class="course-panel" style="background:var(--burnt-ochre);">
+        <div>
+          <span class="eyebrow-label" style="color:#F9EDDC;">Formación</span>
+          <h2>Aprende la técnica completa desde cero</h2>
+          <p style="max-width:46ch;">El curso en línea de Itzell cubre preparación de la uña, técnicas de esmaltado y aplicación de pestañas, con acceso a tu propio ritmo.</p>
+        </div>
+        <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+          <a href="https://www.udemy.com/" target="_blank" rel="noopener" class="btn btn-cyan">Ver en Udemy</a>
+          <a href="https://www.coursera.org/" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#F9EDDC; color:#F9EDDC;">Ver en Coursera</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA A CONTACTO ============ -->
+  <section id="cta-contacto">
+    <div class="container section-head center" style="margin-inline:auto;">
+      <span class="eyebrow-label">¿Ya sabes qué servicio quieres?</span>
+      <h2>Agenda tu cita o resuelve tus dudas antes de reservar</h2>
+      <p style="margin-inline:auto;">Escríbenos con el servicio que te interesa y el diseño que tienes en mente; te confirmamos disponibilidad y detalles por WhatsApp o correo.</p>
+      <div class="hero-actions" style="justify-content:center; margin-top:1.5rem;">
+        <a href="contacto.html" class="btn btn-primary">Ir a contacto</a>
+        <a href="https://wa.me/5210000000000" target="_blank" rel="noopener" class="btn btn-secondary">Escribir por WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <span class="footer-brand">Itzell Vargas</span>
+      <ul class="footer-nav">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+      <div class="social-strip">
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.85.07 3.25.15 4.77 1.7 4.92 4.92.06 1.25.07 1.62.07 4.81s-.01 3.56-.07 4.81c-.15 3.2-1.66 4.77-4.92 4.92-1.25.06-1.62.07-4.85.07s-3.6-.01-4.85-.07c-3.26-.15-4.77-1.72-4.92-4.92-.06-1.25-.07-1.62-.07-4.81s.01-3.56.07-4.81c.15-3.22 1.66-4.77 4.92-4.92C8.4 2.2 8.8 2.2 12 2.2zM12 0C8.74 0 8.33.01 7.05.07c-4.35.2-6.78 2.62-6.98 6.98C.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.2 4.35 2.62 6.78 6.98 6.98C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c4.35-.2 6.79-2.62 6.98-6.98.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.19-4.35-2.62-6.78-6.98-6.98C15.67.01 15.26 0 12 0zm0 5.84A6.16 6.16 0 1 0 12 18.16 6.16 6.16 0 0 0 12 5.84zm0 10.16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-10.4a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"/></svg></a>
+        <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M12.02 2C6.5 2 2 6.5 2 12.02c0 1.87.5 3.63 1.44 5.15L2 22l4.96-1.4a9.96 9.96 0 0 0 5.06 1.38h.01c5.52 0 10.02-4.5 10.02-10.02C22.04 6.5 17.54 2 12.02 2zm0 18.14h-.01a8.1 8.1 0 0 1-4.13-1.13l-.3-.18-3.09.87.83-3.02-.19-.31a8.12 8.12 0 0 1-1.24-4.35c0-4.49 3.66-8.15 8.15-8.15 2.18 0 4.22.85 5.76 2.39a8.09 8.09 0 0 1 2.38 5.77c0 4.49-3.66 8.11-8.16 8.11z"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Itzell Vargas. Todos los derechos reservados.</span>
+      <span>Uñas &amp; Pestañas</span>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/5210000000000" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Escríbenos por WhatsApp">
+  <span class="wa-label">¿Dudas? Escríbenos</span>
+  <span class="wa-bubble">
+    <svg viewBox="0 0 24 24"><path d="M12.02 2C6.5 2 2 6.5 2 12.02c0 1.87.5 3.63 1.44 5.15L2 22l4.96-1.4a9.96 9.96 0 0 0 5.06 1.38h.01c5.52 0 10.02-4.5 10.02-10.02C22.04 6.5 17.54 2 12.02 2zm0 18.14h-.01a8.1 8.1 0 0 1-4.13-1.13l-.3-.18-3.09.87.83-3.02-.19-.31a8.12 8.12 0 0 1-1.24-4.35c0-4.49 3.66-8.15 8.15-8.15 2.18 0 4.22.85 5.76 2.39a8.09 8.09 0 0 1 2.38 5.77c0 4.49-3.66 8.11-8.16 8.11z"/></svg>
+  </span>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
